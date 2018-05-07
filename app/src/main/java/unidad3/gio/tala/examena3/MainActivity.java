@@ -25,6 +25,6 @@ public class MainActivity extends AppCompatActivity {
         int r;
         r=a+b;
         Intent m=new Intent(this,op.class);
-      //  m.putExtra("resultado"=r.toString());
+      /// m.putExtra("resultado"=r.toString());
     }
 }
