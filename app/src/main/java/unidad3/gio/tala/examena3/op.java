@@ -15,8 +15,8 @@ public TextView resultado;
         operacion=(TextView)findViewById(R.id.txtOperacion);
         resultado=(TextView)findViewById(R.id.txtResultado);
         Intent i = getIntent();
-        String opr=i.getStringExtra("resultado");
-        String res=i.getStringExtra("operacion");
+        String opr=i.getStringExtra("operacion");
+        String res=i.getStringExtra("resultado");
         operacion.setText(opr);
         resultado.setText("Resultado; "+res);
     }
